@@ -236,7 +236,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Admin','Liceo','admin@liceo.edu.ph','$2b$10$xZ9BdgHpW1UOFhX4.2NZtOOrcfkDz/8LSsq9fC6DBqAoUybZrr2Q.',1,NULL,NULL,'/uploads/profile-photos/user-1-1776195636381.png');
+INSERT INTO `users` VALUES (1,'Admin','Liceo','admin@liceo.edu.ph','$2b$10$xZ9BdgHpW1UOFhX4.2NZtOOrcfkDz/8LSsq9fC6DBqAoUybZrr2Q.',1,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
